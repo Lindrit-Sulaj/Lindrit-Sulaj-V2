@@ -11,7 +11,7 @@ export default function Navbar() {
     <nav className="h-[70px] border-b border-b-palette-orange/20 bg-palette-isabelline">
       <div className="max-w-screen-xl mx-auto h-full flex justify-between items-center px-4 md:px-6">
         <Link href="/" className="max-w-full">
-          <img className="w-[65px]" src="https://ik.imagekit.io/0s9lwb2yr/Lindrit%20Sulaj/Logo_7HNwxCTdo.png?updatedAt=1707237577052" alt="Lindrit Sulaj" />
+          <img className="w-[50px] rounded-md h-[50px]" src="https://ik.imagekit.io/0s9lwb2yr/Lindrit%20Sulaj/Logo%20with%20Background_tJDEfweuf.png?updatedAt=1707247118040" alt="Lindrit Sulaj" />
         </Link>
         <ul className="hidden md:flex items-center gap-6">
           <li>

@@ -4,6 +4,21 @@ export default function Home() {
   return (
     <main>
       <Hero />
+      <section className="px-4 xl:px-0">
+        <div className="max-w-screen-xl bg-black text-white p-8 md:p-14 -mt-16 mx-auto rounded-lg flex flex-col md:flex-row gap-y-6 justify-between">
+          <div className="w-full md:w-auto">
+            <h3 className="font-bold text-2xl">My clients</h3>
+            <p className="text-neutral-300 mt-1 max-w-lg">I have partnered with clients from Germany, Kosovo and Switzerland to deliver professional websites built for their unique business needs.</p>
+          </div>
+          <div className="flex grow justify-evenly items-center flex-wrap gap-y-4">
+            <img src="https://ik.imagekit.io/0s9lwb2yr/Lindrit%20Sulaj/image%20(1)_6xEr7uDhB.png?updatedAt=1707242120875" alt="Dream Design Logo" className="h-10 md:h-14" />
+            <img src="https://www.berisha-pflasterbau.de/_next/image?url=%2Fpflasterbau-berisha-sm.png&w=96&q=75" alt="Berisha Pflasterbau" className="h-10 md:h-14" rel="nofollow" />
+            <img src="https://ik.imagekit.io/0s9lwb2yr/Lindrit%20Sulaj/image%20(2)_6cxv_3DDX.png?updatedAt=1707242403911" className="h-10 md:h-14" alt="Beaute Infinie AJ Logo" />
+          </div>
+        </div>
+      </section>
+
+      <div className="h-screen"></div>
     </main>
   );
 }

@@ -6,7 +6,7 @@ import { Button } from '@/components/ui/button'
 
 export default function Hero() {
   return (
-    <section className='py-28 bg-palette-isabelline px-4 md:px-6'>
+    <section className='pt-28 pb-36 bg-palette-isabelline px-4 md:px-6'>
       <div className="max-w-screen-xl mx-auto">
         <div className="w-full lg:w-3/5">
           <h3 className='font-medium tracking-tight text-neutral-700 flex items-center gap-2 md:text-lg lg:text-xl uppercase'>
