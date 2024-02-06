@@ -22,7 +22,8 @@ const config = {
       colors: {
         palette: {
           'orange': '#FC6502',
-          'isabelline': '#F3F2EE'
+          'isabelline': '#F3F2EE',
+          'tawny': '#D85802'
         },
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
