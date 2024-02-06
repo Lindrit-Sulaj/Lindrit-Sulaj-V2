@@ -1,0 +1,66 @@
+"use client"
+
+import React from "react"
+import Link from "next/link"
+import { Sheet, SheetContent, SheetHeader, SheetTitle, SheetTrigger } from "./ui/sheet"
+
+import { Button } from "./ui/button"
+
+export default function Navbar() {
+  return (
+    <nav className="h-[70px] border-b border-b-palette-orange/20 bg-palette-isabelline">
+      <div className="max-w-screen-xl mx-auto h-full flex justify-between items-center px-4 md:px-6">
+        <Link href="/" className="max-w-full">
+          <img className="w-[65px]" src="https://ik.imagekit.io/0s9lwb2yr/Lindrit%20Sulaj/Logo_7HNwxCTdo.png?updatedAt=1707237577052" alt="Lindrit Sulaj" />
+        </Link>
+        <ul className="hidden md:flex items-center gap-6">
+          <li>
+            <Link href="/">About</Link>
+          </li>
+          <li>
+            <Link href="/">Services</Link>
+          </li>
+          <li>
+            <Link href="/">Projects</Link>
+          </li>
+          <li>
+            <Link href="/">
+              <Button size="base">Contact</Button>
+            </Link>
+          </li>
+        </ul>
+        <Sheet>
+          <SheetTrigger className="md:hidden">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-8 h-8">
+              <path strokeLinecap="round" strokeLinejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5M12 17.25h8.25" />
+            </svg>
+          </SheetTrigger>
+          <SheetContent>
+            <SheetHeader>
+              <SheetTitle>Lindrit Sulaj</SheetTitle>
+            </SheetHeader>
+            <ul className="h-full flex flex-col justify-center items-center gap-y-4">
+              <li className="text-[17px] text-neutral-700">
+                <Link href="/">Home</Link>
+              </li>
+              <li className="text-[17px] text-neutral-700">
+                <Link href="/">About</Link>
+              </li>
+              <li className="text-[17px] text-neutral-700">
+                <Link href="/">Services</Link>
+              </li>
+              <li className="text-[17px] text-neutral-700">
+                <Link href="/">Projects</Link>
+              </li>
+              <li className="text-[17px] text-neutral-700">
+                <Link href="/">
+                  <Button>Contact</Button>
+                </Link>
+              </li>
+            </ul>
+          </SheetContent>
+        </Sheet>
+      </div>
+    </nav>
+  )
+}
