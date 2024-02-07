@@ -22,6 +22,7 @@ const config = {
       colors: {
         palette: {
           'orange': '#FC6502',
+          'pumpkin': '#FD7D27',
           'isabelline': '#F3F2EE',
           'tawny': '#D85802'
         },

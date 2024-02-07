@@ -1,5 +1,6 @@
 import Hero from "@/sections/hero";
 import About from "@/sections/about";
+import Skills from "@/sections/skills";
 
 export default function Home() {
   return (
@@ -19,6 +20,7 @@ export default function Home() {
         </div>
       </section>
       <About />
+      <Skills />
     </main>
   );
 }

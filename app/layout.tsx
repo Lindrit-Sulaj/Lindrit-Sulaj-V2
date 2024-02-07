@@ -26,6 +26,8 @@ export default function RootLayout({
       <body className={primaryFont.className}>
         <Navbar />
         {children}
+        
+        <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
       </body>
     </html>
   );

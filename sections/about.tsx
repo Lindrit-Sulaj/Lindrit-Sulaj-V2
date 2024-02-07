@@ -6,7 +6,7 @@ import { Button } from '@/components/ui/button'
 export default function About() {
   return (
     <section id="about" className='my-14 md:my-20 px-4 md:px-6'>
-      <div className="max-w-screen-xl mx-auto flex flex-col lg::flex-row items-center gap-6">
+      <div className="max-w-screen-xl mx-auto flex flex-col lg:flex-row items-center gap-6">
         <div className="w-full lg:w-1/2">
           <h3 className='font-medium text-neutral-700 flex items-center gap-2 md:text-lg tracking-wider uppercase'>
             <svg width="100%" height="100%" viewBox="0 0 24 24" className='w-4 md:w-6 text-palette-orange' fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -14,8 +14,8 @@ export default function About() {
             </svg>
             <span>About me</span>
           </h3>
-          <h2 className='font-bold text-2xl md:text-3xl lg:text-4xl mt-3'>Who I am</h2>
-          <p className='text-[17px] md:text-lg text-neutral-700 mt-3'>Hey there, I'm Lindrit Sulaj, a full stack web developer & SEO specialist based in Kosovo. I speak Albanian, English & German and have a passion for creating unique amazing websites. I develop professional websites for different businesses & together with my SEO expertise I make sure these websites stand out online.</p>
+          <h2 className='h2'>Who I am</h2>
+          <p className='text-[17px] md:text-lg text-neutral-700 mt-3'>Hey there, I'm Lindrit Sulaj, a full stack web developer & SEO specialist based in Kosovo. I speak Albanian, English & German and have a passion for technology. I develop professional websites for different businesses & together with my SEO expertise I make sure these websites stand out online.</p>
           <p className='text-[17px] md:text-lg text-neutral-700 mt-3'>Together with <a className='underline underline-offset-2 text-palette-tawny' href="https://www.fatlumsulaj.com">my brother</a>, I also co-founded a web development & seo agency named <a className='underline underline-offset-2 text-palette-tawny' href="https://www.inoweb-agentur.de/en">Inoweb</a>. With years of experience in the field, we're all about developing modern & user-friendly websites, that have high conversion rates, great UI, are fast and optimized for SEO.</p>
           <Link href="/#contact" className='mt-4 block'>
             <Button size="base" className='flex items-center gap-1'>Get in touch <ArrowUpRight size={18} /></Button>
