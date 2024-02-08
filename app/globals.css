@@ -70,6 +70,13 @@
   @apply font-bold text-2xl md:text-3xl lg:text-4xl mt-3
 }
 
+.cta-bg {
+  background-image: url('https://ik.imagekit.io/0s9lwb2yr/Lindrit%20Sulaj/banner%20for%20cta_PgjVm4RwV.png?updatedAt=1707421173869');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
 ::selection {
   color: white;
   background: rgb(252, 101, 2);

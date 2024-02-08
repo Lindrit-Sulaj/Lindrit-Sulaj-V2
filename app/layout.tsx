@@ -1,9 +1,9 @@
 import type { Metadata } from "next";
-import Navbar from "@/components/navbar";
-
 import { Inter, Poppins } from "next/font/google";
-import { Montserrat } from "next/font/google";
-import { DM_Sans } from "next/font/google";
+
+import Navbar from "@/components/navbar";
+import Footer from "@/components/footer";
+
 import "./globals.css";
 
 // const primaryFont = DM_Sans({ subsets: ["latin" ]})
@@ -26,7 +26,7 @@ export default function RootLayout({
       <body className={primaryFont.className}>
         <Navbar />
         {children}
-        
+        <Footer />
         <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
       </body>
     </html>
