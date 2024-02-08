@@ -29,7 +29,7 @@ export default function Footer() {
           </a>
         </li>
       </ul>
-      <p className='flex items-center justify-center flex-wrap gap-1 mt-4 text-neutral-700 tracking-wide uppercase'>Handcrafted by me with <i className="devicon-nextjs-plain text-xl"></i></p>
+      <p className='flex items-center justify-center flex-wrap gap-1 mt-4 text-neutral-700'>Made by me with <i className="devicon-nextjs-plain text-xl"></i></p>
     </footer>
   )
 }
