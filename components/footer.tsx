@@ -1,17 +1,22 @@
 "use client"
 import React from 'react'
 import { Instagram } from 'lucide-react'
+import { usePathname } from 'next/navigation'
 
 export default function Footer() {
+  const path = usePathname();
+  
+  const landing = path === "/"
+
   return (
-    <footer className='pt-32 pb-20 bg-palette-isabelline border-t border-t-palette-orange/20 px-4'>
+    <footer className={`${landing ? "pt-32 pb-20" : "py-20"} bg-palette-isabelline border-t border-t-palette-orange/20 px-4`}>
       <div className="flex justify-center items-center gap-3">
         <img className='w-11 h-11 rounded-md' src="https://ik.imagekit.io/0s9lwb2yr/Lindrit%20Sulaj/Logo%20with%20Background_FUd6B4Jxq.png?updatedAt=1707247528529" alt="Lindrit Sulaj" />
         <h3 className='font-bold text-center text-xl md:text-2xl'>
           Lindrit Sulaj
         </h3>
       </div>
-      <p className='text-lg text-neutral-700 mt-3 text-center'>Learning & Leveling up one day at a time</p>
+      <p className='text-lg text-neutral-700 mt-3 text-center'>Pursuing progress and embracing new challenges.</p>
       <ul className='flex justify-center mt-6 gap-2'>
         <li>
           <a target="_blank" href="https://www.instagram.com/lindritsulaj" className='w-14 h-14 border-2 border-neutral-900 flex items-center justify-center rounded-full hover:bg-neutral-200 transition-all'>

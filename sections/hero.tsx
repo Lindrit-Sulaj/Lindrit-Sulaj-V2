@@ -18,7 +18,7 @@ export default function Hero() {
           <h1 className='font-bold text-[26px] mt-5 md:mt-3 md:text-4xl lg:text-5xl xl:text-6xl max-w-screen-lg xl:leading-[80px]'>Hello there! I'm Lindrit Sulaj</h1>
           <p className='text-lg text-neutral-700 mt-3'>Based in Kosovo, I help businesses from all over the world create a strong online presence with my web development & SEO services. I specialize in building responsive and user-centric websites for companies of all sizes and industries.</p>
           <div className="flex gap-2 mt-5">
-            <Link href="/#contact">
+            <Link href="/contact">
               <Button size="lg" className='flex items-center gap-1'>Let's Talk <ArrowUpRight size={18} /></Button>
             </Link>
             <Link href="/#projects">

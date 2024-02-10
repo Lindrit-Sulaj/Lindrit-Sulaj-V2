@@ -15,16 +15,16 @@ export default function Navbar() {
         </Link>
         <ul className="hidden md:flex items-center gap-6">
           <li>
-            <Link href="/">About</Link>
+            <Link href="/#about">About</Link>
           </li>
           <li>
-            <Link href="/">Services</Link>
+            <Link href="/#skills">Services</Link>
           </li>
           <li>
-            <Link href="/">Projects</Link>
+            <Link href="/#projects">Projects</Link>
           </li>
           <li>
-            <Link href="/">
+            <Link href="/contact">
               <Button size="base">Contact</Button>
             </Link>
           </li>
