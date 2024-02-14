@@ -15,12 +15,12 @@ export default function Projects() {
       <div>
         <div className='flex flex-col md:flex-row lg:items-center border rounded-xl border-neutral-300 mt-6'>
           <div className="w-full md:w-3/5 p-4 md:p-8 lg:p-10">
-            <Badge className='bg-black'>Featured</Badge>
+            <Badge className='bg-palette-orange'>Featured</Badge>
             <h3 className='font-bold text-lg md:text-xl mt-3'>INOWEB</h3>
             <p className='text-base md:text-[17px] text-neutral-700 mt-2'>Together with my brother, we founded our own web development & seo agency. It is one of our biggest projects to date and serves content on three different languages: German (Main), English & Albanian.</p>
             <a href="https://www.inoweb-agentur.de" className='text-palette-orange text-lg font-medium mt-3 block'>inoweb-agentur.de</a>
           </div>
-          <div className="w-full md:w-2/5 flex justify-center items-center bg-palette-orange">
+          <div className="w-full md:w-2/5 flex justify-center items-center bg-palette-isabelline">
             <img className='max-w-[300px] lg:max-w-[500px]' src="https://ik.imagekit.io/0s9lwb2yr/Lindrit%20Sulaj/INOWEB_miQY8bd_j.png?updatedAt=1707328470050" alt="INOWEB Agentur" />
           </div>
         </div>
@@ -30,7 +30,7 @@ export default function Projects() {
             <p className='text-base md:text-[17px] text-neutral-700 mt-2'>We worked with an architecture company from Kosovo to develop a custom website, tailored to their business needs. The website has a modern UI and great UX. The website includes a landing page, about page, services and projects, which the company manages through Sanity CMS.</p>
             <a href="https://www.dreamdesign-ks.com" className='text-palette-orange text-lg font-medium mt-3 block'>dreamdesign-ks.com</a>
           </div>
-          <div className="w-full md:w-2/5 flex justify-center items-center bg-palette-orange">
+          <div className="w-full md:w-2/5 flex justify-center items-center bg-palette-isabelline">
             <img className='max-w-[300px] lg:max-w-[500px]' src="https://ik.imagekit.io/0s9lwb2yr/Dream%20Design%20Project_l8labktde9.png?updatedAt=1707326568873" alt="Dream Design Website" />
           </div>
         </div>
@@ -40,7 +40,7 @@ export default function Projects() {
             <p className='text-base md:text-[17px] text-neutral-700 mt-2'>We created a professional landing page for a paving construction company located in Passau, Germany. The landing page has a modern design & demonstrates Pflasterbau Berisha's experience in the field with it's projects, services and about us section. It also includes a contact form and frequently asked questions.</p>
             <a href="https://www.berisha-pflasterbau.de" className='text-palette-orange text-lg font-medium mt-3 block'>berisha-pflasterbau.de</a>
           </div>
-          <div className="w-full md:w-2/5 flex justify-center items-center bg-palette-orange">
+          <div className="w-full md:w-2/5 flex justify-center items-center bg-palette-isabelline">
             <img className='max-w-[300px] lg:max-w-[500px]' src="https://ik.imagekit.io/0s9lwb2yr/Pflasterbau%20Berisha_EFA94QSlP.png?updatedAt=1707327690666" alt="Pflasterbau Berisha" />
           </div>
         </div>
