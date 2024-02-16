@@ -8,9 +8,9 @@ import { Button } from '@/components/ui/button'
 export default function ContactPage() {
   return (
     <main>
-      <section className="py-20">
+      <section className="py-14 md:py-20 px-4">
         <h1 className='font-semibold text-2xl md:text-[26px] mt-5 md:mt-3 lg:text-4xl max-w-screen-lg lg:leading-[50px] mx-auto text-center'>Looking forward to working with you! <br />Ready to get started?</h1>
-        <form action="" className='max-w-2xl mx-auto mt-6'>
+        <form action="https://formspree.io/f/xrgnqaad" method="POST" className='max-w-2xl mx-auto mt-6'>
           <div className="flex gap-4">
             <div className='w-1/2'>
               <Label htmlFor="name">Name</Label>
@@ -23,16 +23,16 @@ export default function ContactPage() {
           </div>
           <div className='mt-4'>
             <Label>Service</Label>
-            <div className='flex gap-4 mt-1'>
-              <div className='w-1/3 px-4 h-[50px] border flex items-center gap-x-2 rounded-md'>
+            <div className='flex gap-4 flex-wrap md:flex-nowrap mt-1'>
+              <div className='md:w-1/3 px-4 h-[50px] border flex items-center gap-x-2 rounded-md'>
                 <Checkbox className='w-6 h-6' name="webdevelopment" id="webdevelopment" value="webdevelopment" />
                 <Label htmlFor="webdevelopment">Web Development</Label>
               </div>
-              <div className='w-1/3 px-4 h-[50px] border flex items-center gap-x-2 rounded-md'>
+              <div className='md:w-1/3 px-4 h-[50px] border flex items-center gap-x-2 rounded-md'>
                 <Checkbox className='w-6 h-6' name="webdesign" id="webdesign" value="webdesign" />
                 <Label htmlFor="webdesign">Web Design</Label>
               </div>
-              <div className='w-1/3 px-4 h-[50px] border flex items-center gap-x-2 rounded-md'>
+              <div className='md:w-1/3 px-4 h-[50px] border flex items-center gap-x-2 rounded-md'>
                 <Checkbox className='w-6 h-6' name="seo" id="seo" value="seo" />
                 <Label htmlFor="seo">SEO</Label>
               </div>

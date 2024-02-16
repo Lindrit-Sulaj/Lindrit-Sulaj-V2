@@ -35,7 +35,7 @@ export default function Navbar() {
               <path strokeLinecap="round" strokeLinejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5M12 17.25h8.25" />
             </svg>
           </SheetTrigger>
-          <SheetContent>
+          <SheetContent onCloseAutoFocus={event => event.preventDefault()}>
             <SheetHeader>
               <SheetTitle>Lindrit Sulaj</SheetTitle>
             </SheetHeader>
@@ -44,16 +44,16 @@ export default function Navbar() {
                 <Link href="/">Home</Link>
               </li>
               <li className="text-[17px] text-neutral-700">
-                <Link href="/">About</Link>
+                <Link href="/#about">About</Link>
               </li>
               <li className="text-[17px] text-neutral-700">
-                <Link href="/">Services</Link>
+                <Link href="/#skills">Skills</Link>
               </li>
               <li className="text-[17px] text-neutral-700">
-                <Link href="/">Projects</Link>
+                <Link href="/#projects">Projects</Link>
               </li>
               <li className="text-[17px] text-neutral-700">
-                <Link href="/">
+                <Link href="/contact">
                   <Button>Contact</Button>
                 </Link>
               </li>

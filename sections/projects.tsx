@@ -37,7 +37,7 @@ export default function Projects() {
         <div className='flex flex-col md:flex-row lg:items-center border rounded-xl border-neutral-300 mt-6'>
           <div className="w-full md:w-3/5 p-4 md:p-8 lg:p-10">
             <h3 className='font-bold text-lg md:text-xl'>Pflasterbau Berisha</h3>
-            <p className='text-base md:text-[17px] text-neutral-700 mt-2'>We created a professional landing page for a paving construction company located in Passau, Germany. The landing page has a modern design & demonstrates Pflasterbau Berisha's experience in the field with it's projects, services and about us section. It also includes a contact form and frequently asked questions.</p>
+            <p className='text-base md:text-[17px] text-neutral-700 mt-2'>We created a professional landing page for a paving construction company located in Passau, Germany. The landing page has a modern design & demonstrates Pflasterbau Berisha's experience in the field with its projects, services and about us section. It also includes a contact form and frequently asked questions.</p>
             <a href="https://www.berisha-pflasterbau.de" className='text-palette-orange text-lg font-medium mt-3 block'>berisha-pflasterbau.de</a>
           </div>
           <div className="w-full md:w-2/5 flex justify-center items-center bg-palette-isabelline">
