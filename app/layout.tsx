@@ -1,13 +1,12 @@
 import type { Metadata } from "next";
 import { Inter, Poppins } from "next/font/google";
+import GoogleAnalytics from "./GoogleAnalytics";
 
 import Navbar from "@/components/navbar";
 import Footer from "@/components/footer";
 
 import "./globals.css";
 
-// const primaryFont = DM_Sans({ subsets: ["latin" ]})
-// const primaryFont = Montserrat({ subsets: ["latin" ]})
 const primaryFont = Poppins({ subsets: ["latin"], weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"]})
 const inter = Inter({ subsets: ["latin"] });
 
@@ -23,6 +22,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <GoogleAnalytics GA_TRACKING_ID="G-Y148D4GHC8" />
       <body className={primaryFont.className}>
         <Navbar />
         {children}
