@@ -17,7 +17,7 @@ export default function About() {
           <h2 className='h2'>Who I am</h2>
           <p className='text-[17px] md:text-lg text-neutral-700 mt-3'>Hey there, I'm Lindrit Sulaj, a full stack web developer & SEO specialist based in Kosovo. I speak Albanian, English & German and have a passion for technology. I develop professional websites for different businesses & together with my SEO expertise I make sure these websites stand out online.</p>
           <p className='text-[17px] md:text-lg text-neutral-700 mt-3'>Together with <a className='underline underline-offset-2 text-palette-tawny' href="https://www.fatlumsulaj.com">my brother</a>, I also co-founded a web development & seo agency named <a className='underline underline-offset-2 text-palette-tawny' href="https://www.inoweb-agentur.de/en">Inoweb</a>. With years of experience in the field, we're all about developing modern & user-friendly websites, that have high conversion rates, great UI, are fast and optimized for SEO.</p>
-          <Link href="/#contact" className='mt-4 block'>
+          <Link href="/contact" className='mt-4 block'>
             <Button size="base" className='flex items-center gap-1'>Get in touch <ArrowUpRight size={18} /></Button>
           </Link>
         </div>
