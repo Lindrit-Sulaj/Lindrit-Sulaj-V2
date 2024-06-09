@@ -10,7 +10,7 @@ export default function ContactPage() {
     <main>
       <section className="py-14 md:py-20 px-4">
         <h1 className='font-semibold text-2xl md:text-[26px] mt-5 md:mt-3 lg:text-4xl max-w-screen-lg lg:leading-[50px] mx-auto text-center'>Looking forward to working with you! <br />Ready to get started?</h1>
-        <form action="https://formspree.io/f/xrgnqaad" method="POST" className='max-w-2xl mx-auto mt-6'>
+        <form action="https://formspree.io/f/mleqqrvj" method="POST" className='max-w-2xl mx-auto mt-6'>
           <div className="flex gap-4">
             <div className='w-1/2'>
               <Label htmlFor="name">Name</Label>
