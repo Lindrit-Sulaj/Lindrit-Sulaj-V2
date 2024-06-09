@@ -3,7 +3,6 @@ import About from "@/sections/about";
 import Skills from "@/sections/skills";
 import Projects from "@/sections/projects";
 import Cta from "@/sections/cta";
-import Footer from "@/components/footer";
 
 export default function Home() {
   return (
@@ -19,6 +18,7 @@ export default function Home() {
             <img src="https://ik.imagekit.io/0s9lwb2yr/Lindrit%20Sulaj/image%20(1)_6xEr7uDhB.png?updatedAt=1707242120875" alt="Dream Design Logo" className="h-10 md:h-14" />
             <img src="https://www.berisha-pflasterbau.de/_next/image?url=%2Fpflasterbau-berisha-sm.png&w=96&q=75" alt="Berisha Pflasterbau" className="h-10 md:h-14" rel="nofollow" />
             <img src="https://ik.imagekit.io/0s9lwb2yr/Lindrit%20Sulaj/image%20(2)_6cxv_3DDX.png?updatedAt=1707242403911" className="h-10 md:h-14" alt="Beaute Infinie AJ Logo" />
+            <img src="https://ik.imagekit.io/0s9lwb2yr/Lindrit%20Sulaj/image%20(3)_Psvsy2Vp0.png?updatedAt=1717925034444" className="h-10 md:h-14" alt="Protec Safe" />
           </div>
         </div>
       </section>

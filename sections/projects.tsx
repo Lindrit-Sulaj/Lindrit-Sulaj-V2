@@ -26,6 +26,16 @@ export default function Projects() {
         </div>
         <div className='flex flex-col md:flex-row lg:items-center border rounded-xl border-neutral-300 mt-6'>
           <div className="w-full md:w-3/5 p-4 md:p-8 lg:p-10">
+            <h3 className='font-bold text-lg md:text-xl'>Protec Safe</h3>
+            <p className='text-base md:text-[17px] text-neutral-700 mt-2'>I collaborated with the leading safe manufacturer in Kosovo to create a custom business website. The website is tailored for high-ranking in search engines, hfunctions flawlessly accross various devices. It features a main landing page, a product overview section, a list of partners, a contact section, and individual pages dedicated to each of Protec Safe's products.</p>
+            <a href="https://www.protec.al" className='text-palette-orange text-lg font-medium mt-3 block'>protec.al</a>
+          </div>
+          <div className="w-full md:w-2/5 flex justify-center items-center bg-palette-isabelline">
+            <img className='max-w-[300px] lg:max-w-[500px]' src="https://ik.imagekit.io/0s9lwb2yr/Lindrit%20Sulaj/protec%20al%20landing%20page_lU7ldlizd.png?updatedAt=1717947009072" alt="Protec Safe Website" />
+          </div>
+        </div>
+        <div className='flex flex-col md:flex-row lg:items-center border rounded-xl border-neutral-300 mt-6'>
+          <div className="w-full md:w-3/5 p-4 md:p-8 lg:p-10">
             <h3 className='font-bold text-lg md:text-xl'>Dream Design SHPK Website</h3>
             <p className='text-base md:text-[17px] text-neutral-700 mt-2'>We worked with an architecture company from Kosovo to develop a custom website, tailored to their business needs. The website has a modern UI and great UX. The website includes a landing page, about page, services and projects, which the company manages through Sanity CMS.</p>
             <a href="https://www.dreamdesign-ks.com" className='text-palette-orange text-lg font-medium mt-3 block'>dreamdesign-ks.com</a>
@@ -34,6 +44,7 @@ export default function Projects() {
             <img className='max-w-[300px] lg:max-w-[500px]' src="https://ik.imagekit.io/0s9lwb2yr/Dream%20Design%20Project_l8labktde9.png?updatedAt=1707326568873" alt="Dream Design Website" />
           </div>
         </div>
+
         <div className='flex flex-col md:flex-row lg:items-center border rounded-xl border-neutral-300 mt-6'>
           <div className="w-full md:w-3/5 p-4 md:p-8 lg:p-10">
             <h3 className='font-bold text-lg md:text-xl'>Pflasterbau Berisha</h3>
@@ -44,7 +55,6 @@ export default function Projects() {
             <img className='max-w-[300px] lg:max-w-[500px]' src="https://ik.imagekit.io/0s9lwb2yr/Pflasterbau%20Berisha_EFA94QSlP.png?updatedAt=1707327690666" alt="Pflasterbau Berisha" />
           </div>
         </div>
-
       </div>
     </section>
   )
