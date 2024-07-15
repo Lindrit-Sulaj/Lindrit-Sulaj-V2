@@ -9,7 +9,7 @@ export default function Footer() {
   const landing = path === "/"
 
   return (
-    <footer className={`${landing ? "pt-32 pb-20" : "py-20"} bg-palette-isabelline border-t border-t-palette-orange/20 px-4`}>
+    <footer className={`${landing ? "pt-32 pb-20" : "py-20"} bg-palette-isabelline border-t border-t-palette-primary/20 px-4`}>
       <div className="flex justify-center items-center gap-3">
         <img className='w-11 h-11 rounded-md' src="https://ik.imagekit.io/0s9lwb2yr/Lindrit%20Sulaj/Logo%20with%20Background_FUd6B4Jxq.png?updatedAt=1707247528529" alt="Lindrit Sulaj" />
         <h3 className='font-bold text-center text-xl md:text-2xl'>

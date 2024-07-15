@@ -8,7 +8,7 @@ import { Button } from "./ui/button"
 
 export default function Navbar() {
   return (
-    <nav className="h-[70px] border-b border-b-palette-orange/20 bg-palette-isabelline">
+    <nav className="h-[70px] border-b border-b-palette-primary/20 bg-palette-isabelline">
       <div className="max-w-screen-xl mx-auto h-full flex justify-between items-center px-4 md:px-6">
         <Link href="/" className="max-w-full">
           <img className="w-[50px] rounded-md h-[50px]" src="https://ik.imagekit.io/0s9lwb2yr/Lindrit%20Sulaj/Logo%20with%20Background_FUd6B4Jxq.png?updatedAt=1707247528529" alt="Lindrit Sulaj" />

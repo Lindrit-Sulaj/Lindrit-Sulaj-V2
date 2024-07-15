@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Inter, Poppins } from "next/font/google";
+import { Poppins as DefaultFont } from "next/font/google";
 import GoogleAnalytics from "./GoogleAnalytics";
 
 import Navbar from "@/components/navbar";
@@ -7,8 +7,7 @@ import Footer from "@/components/footer";
 
 import "./globals.css";
 
-const primaryFont = Poppins({ subsets: ["latin"], weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"]})
-const inter = Inter({ subsets: ["latin"] });
+const primaryFont = DefaultFont({ subsets: ["latin"], weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"]})
 
 export const metadata: Metadata = {
   title: "Lindrit Sulaj",

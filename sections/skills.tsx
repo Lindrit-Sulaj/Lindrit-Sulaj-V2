@@ -4,7 +4,7 @@ export default function Skills() {
   return (
     <section id="skills" className="bg-neutral-950 text-white py-14 my-24 px-4">
       <h3 className='font-medium text-neutral-300 flex items-center gap-2 md:text-lg tracking-wider uppercase justify-center'>
-        <svg width="100%" height="100%" viewBox="0 0 24 24" className='w-4 md:w-6 text-palette-orange' fill="none" xmlns="http://www.w3.org/2000/svg">
+        <svg width="100%" height="100%" viewBox="0 0 24 24" className='w-4 md:w-6 text-palette-primary' fill="none" xmlns="http://www.w3.org/2000/svg">
           <path d="M12 2V22M19.0711 4.92893L4.92893 19.0711M22 12H2M19.0711 19.0711L4.92893 4.92893" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" />
         </svg>
         <span>Skills & Expertise</span>
@@ -26,7 +26,7 @@ export default function Skills() {
                 </div>
 
                 <div className='w-full h-[3px] flex mt-1'>
-                  <hr className="h-full w-[90%] bg-palette-orange border-none" />
+                  <hr className="h-full w-[90%] bg-palette-primary border-none" />
                   <hr className="h-full w-[10%] bg-neutral-700 border-none" />
                 </div>
               </div>
@@ -42,7 +42,7 @@ export default function Skills() {
                 </div>
 
                 <div className='w-full h-[3px] flex mt-1'>
-                  <hr className="h-full w-[80%] bg-palette-orange border-none" />
+                  <hr className="h-full w-[80%] bg-palette-primary border-none" />
                   <hr className="h-full w-[20%] bg-neutral-700 border-none" />
                 </div>
               </div>
@@ -58,7 +58,7 @@ export default function Skills() {
                 </div>
 
                 <div className='w-full h-[3px] flex mt-1'>
-                  <hr className="h-full w-[60%] bg-palette-orange border-none" />
+                  <hr className="h-full w-[60%] bg-palette-primary border-none" />
                   <hr className="h-full w-[40%] bg-neutral-700 border-none" />
                 </div>
               </div>
@@ -74,7 +74,7 @@ export default function Skills() {
                 </div>
 
                 <div className='w-full h-[3px] flex mt-1'>
-                  <hr className="h-full w-[75%] bg-palette-orange border-none" />
+                  <hr className="h-full w-[75%] bg-palette-primary border-none" />
                   <hr className="h-full w-[25%] bg-neutral-700 border-none" />
                 </div>
               </div>
@@ -90,7 +90,7 @@ export default function Skills() {
                 </div>
 
                 <div className='w-full h-[3px] flex mt-1'>
-                  <hr className="h-full w-[80%] bg-palette-orange border-none" />
+                  <hr className="h-full w-[80%] bg-palette-primary border-none" />
                   <hr className="h-full w-[20%] bg-neutral-700 border-none" />
                 </div>
               </div>
@@ -106,7 +106,7 @@ export default function Skills() {
                 </div>
 
                 <div className='w-full h-[3px] flex mt-1'>
-                  <hr className="h-full w-[80%] bg-palette-orange border-none" />
+                  <hr className="h-full w-[80%] bg-palette-primary border-none" />
                   <hr className="h-full w-[20%] bg-neutral-700 border-none" />
                 </div>
               </div>
@@ -122,7 +122,7 @@ export default function Skills() {
                 </div>
 
                 <div className='w-full h-[3px] flex mt-1'>
-                  <hr className="h-full w-[70%] bg-palette-orange border-none" />
+                  <hr className="h-full w-[70%] bg-palette-primary border-none" />
                   <hr className="h-full w-[30%] bg-neutral-700 border-none" />
                 </div>
               </div>
@@ -138,7 +138,7 @@ export default function Skills() {
                 </div>
 
                 <div className='w-full h-[3px] flex mt-1'>
-                  <hr className="h-full w-[70%] bg-palette-orange border-none" />
+                  <hr className="h-full w-[70%] bg-palette-primary border-none" />
                   <hr className="h-full w-[30%] bg-neutral-700 border-none" />
                 </div>
               </div>
@@ -154,7 +154,7 @@ export default function Skills() {
                 </div>
 
                 <div className='w-full h-[3px] flex mt-1'>
-                  <hr className="h-full w-[90%] bg-palette-orange border-none" />
+                  <hr className="h-full w-[90%] bg-palette-primary border-none" />
                   <hr className="h-full w-[10%] bg-neutral-700 border-none" />
                 </div>
               </div>
@@ -170,7 +170,7 @@ export default function Skills() {
                 </div>
 
                 <div className='w-full h-[3px] flex mt-1'>
-                  <hr className="h-full w-[60%] bg-palette-orange border-none" />
+                  <hr className="h-full w-[60%] bg-palette-primary border-none" />
                   <hr className="h-full w-[40%] bg-neutral-700 border-none" />
                 </div>
               </div>

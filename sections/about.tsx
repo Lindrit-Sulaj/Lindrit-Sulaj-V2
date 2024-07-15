@@ -9,7 +9,7 @@ export default function About() {
       <div className="max-w-screen-xl mx-auto flex flex-col lg:flex-row items-center gap-6">
         <div className="w-full lg:w-1/2">
           <h3 className='font-medium text-neutral-700 flex items-center gap-2 md:text-lg tracking-wider uppercase'>
-            <svg width="100%" height="100%" viewBox="0 0 24 24" className='w-4 md:w-6 text-palette-orange' fill="none" xmlns="http://www.w3.org/2000/svg">
+            <svg width="100%" height="100%" viewBox="0 0 24 24" className='w-4 md:w-6 text-palette-primary' fill="none" xmlns="http://www.w3.org/2000/svg">
               <path d="M12 2V22M19.0711 4.92893L4.92893 19.0711M22 12H2M19.0711 19.0711L4.92893 4.92893" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" />
             </svg>
             <span>About me</span>
@@ -22,14 +22,14 @@ export default function About() {
           </Link>
         </div>
         <div className="w-full lg:w-1/2 grid grid-cols-1 md:grid-cols-3 lg:grid-cols-1 bg-palette-isabelline px-4 md:px-10 md:py-6">
-          <div className="py-4 border-b md:border-b-0 lg:border-b border-b-palette-orange/20 flex flex-row md:flex-col lg:flex-row items-center gap-4">
+          <div className="py-4 border-b md:border-b-0 lg:border-b border-b-palette-primary/20 flex flex-row md:flex-col lg:flex-row items-center gap-4">
             <img className="aspect-video max-h-14 md:max-h-20 object-cover" src="https://ik.imagekit.io/0s9lwb2yr/Lindrit%20Sulaj/tr:w-400/african-american-engineer-programming-app-code-developing-online-software-with-cloud-server-firewall-security-coding-new-user-interface-with-binary-code-html-program-web-development_kUVISHCmN.jpg?updatedAt=1707249415519" alt="Frontend Development" />
             <div>
               <h3 className='font-semibold text-lg text-left md:text-center lg:text-left'>Frontend Development</h3>
               <p className='text-neutral-700 text-[15px] text-left md:text-center lg:text-left'>Next.JS, Typescript, Javascript, HTML, CSS, Tailwind, Framer Motion, Redux</p>
             </div>
           </div>
-          <div className="py-4 border-b md:border-b-0 lg:border-b border-b-palette-orange/20 flex flex-row md:flex-col lg:flex-row items-center gap-4">
+          <div className="py-4 border-b md:border-b-0 lg:border-b border-b-palette-primary/20 flex flex-row md:flex-col lg:flex-row items-center gap-4">
             <img className="aspect-video max-h-14 md:max-h-20 object-cover" src="https://ik.imagekit.io/0s9lwb2yr/Lindrit%20Sulaj/tr:w-400/closeup-developer-hands-typing-code-keyboard-while-looking-computer-screens-with-programming-interface-software-programmer-sitting-desk-with-clipboard-writing-algorithm_KyVz1yWhJ.jpg?updatedAt=1707249690192" alt="Backend Development" />
             <div>
               <h3 className='font-semibold text-lg text-left md:text-center lg:text-left'>Backend Development</h3>
