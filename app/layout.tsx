@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Poppins as DefaultFont } from "next/font/google";
+import { Epilogue as DefaultFont } from "next/font/google";
 import GoogleAnalytics from "./GoogleAnalytics";
 
 import Navbar from "@/components/navbar";

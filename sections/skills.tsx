@@ -38,12 +38,12 @@ export default function Skills() {
               <div className='grow'>
                 <div className="flex justify-between">
                   <h5 className='font-medium'>React</h5>
-                  <p className='text-neutral-300'>80%</p>
+                  <p className='text-neutral-300'>90%</p>
                 </div>
 
                 <div className='w-full h-[3px] flex mt-1'>
-                  <hr className="h-full w-[80%] bg-palette-primary border-none" />
-                  <hr className="h-full w-[20%] bg-neutral-700 border-none" />
+                  <hr className="h-full w-[90%] bg-palette-primary border-none" />
+                  <hr className="h-full w-[10%] bg-neutral-700 border-none" />
                 </div>
               </div>
             </li>
@@ -54,12 +54,12 @@ export default function Skills() {
               <div className='grow'>
                 <div className="flex justify-between">
                   <h5 className='font-medium'>Typescript</h5>
-                  <p className='text-neutral-300'>60%</p>
+                  <p className='text-neutral-300'>70%</p>
                 </div>
 
                 <div className='w-full h-[3px] flex mt-1'>
-                  <hr className="h-full w-[60%] bg-palette-primary border-none" />
-                  <hr className="h-full w-[40%] bg-neutral-700 border-none" />
+                  <hr className="h-full w-[70%] bg-palette-primary border-none" />
+                  <hr className="h-full w-[30%] bg-neutral-700 border-none" />
                 </div>
               </div>
             </li>
@@ -70,12 +70,28 @@ export default function Skills() {
               <div className='grow'>
                 <div className="flex justify-between">
                   <h5 className='font-medium'>Next.JS</h5>
-                  <p className='text-neutral-300'>75%</p>
+                  <p className='text-neutral-300'>85%</p>
                 </div>
 
                 <div className='w-full h-[3px] flex mt-1'>
-                  <hr className="h-full w-[75%] bg-palette-primary border-none" />
-                  <hr className="h-full w-[25%] bg-neutral-700 border-none" />
+                  <hr className="h-full w-[85%] bg-palette-primary border-none" />
+                  <hr className="h-full w-[15%] bg-neutral-700 border-none" />
+                </div>
+              </div>
+            </li>
+            <li className='flex items-center gap-x-2 mt-4'>
+              <div className='w-12 h-12 rounded-full justify-center items-center flex bg-neutral-800'>
+                <i className="devicon-prisma-original text-xl"></i>
+              </div>
+              <div className='grow'>
+                <div className="flex justify-between">
+                  <h5 className='font-medium'>Prisma</h5>
+                  <p className='text-neutral-300'>80%</p>
+                </div>
+
+                <div className='w-full h-[3px] flex mt-1'>
+                  <hr className="h-full w-[80%] bg-palette-primary border-none" />
+                  <hr className="h-full w-[20%] bg-neutral-700 border-none" />
                 </div>
               </div>
             </li>
@@ -86,12 +102,12 @@ export default function Skills() {
               <div className='grow'>
                 <div className="flex justify-between">
                   <h5 className='font-medium'>Firebase</h5>
-                  <p className='text-neutral-300'>80%</p>
+                  <p className='text-neutral-300'>70%</p>
                 </div>
 
                 <div className='w-full h-[3px] flex mt-1'>
-                  <hr className="h-full w-[80%] bg-palette-primary border-none" />
-                  <hr className="h-full w-[20%] bg-neutral-700 border-none" />
+                  <hr className="h-full w-[70%] bg-palette-primary border-none" />
+                  <hr className="h-full w-[30%] bg-neutral-700 border-none" />
                 </div>
               </div>
             </li>
@@ -166,16 +182,16 @@ export default function Skills() {
               <div className='grow'>
                 <div className="flex justify-between">
                   <h5 className='font-medium'>Sanity CMS</h5>
-                  <p className='text-neutral-300'>60%</p>
+                  <p className='text-neutral-300'>75%</p>
                 </div>
 
                 <div className='w-full h-[3px] flex mt-1'>
-                  <hr className="h-full w-[60%] bg-palette-primary border-none" />
-                  <hr className="h-full w-[40%] bg-neutral-700 border-none" />
+                  <hr className="h-full w-[75%] bg-palette-primary border-none" />
+                  <hr className="h-full w-[25%] bg-neutral-700 border-none" />
                 </div>
               </div>
             </li>
-            <p className='mt-4 md:text-[17px] text-neutral-300'>Other: Redux, Sass, Framer Motion</p>
+            <p className='mt-4 md:text-[17px] text-neutral-300'>Other: Redux, Sass, Framer Motion, Prismic</p>
           </ul>
         </div>
         <div className="w-full lg:w-2/3 flex flex-col md:flex-row lg:flex-col items-start gap-y-6 gap-x-4">
@@ -223,32 +239,32 @@ export default function Skills() {
                 Github
               </li>
               <li className='text-base md:text-[17px] md:text-lg text-neutral-300 flex items-center gap-2'><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-5 min-w-5 md:w-6 md:h-6">
-                  <path strokeLinecap="round" strokeLinejoin="round" d="m4.5 12.75 6 6 9-13.5" />
-                </svg>Vercel</li>
+                <path strokeLinecap="round" strokeLinejoin="round" d="m4.5 12.75 6 6 9-13.5" />
+              </svg>Vercel</li>
               <li className='text-base md:text-[17px] md:text-lg text-neutral-300 flex items-center gap-2'><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-5 min-w-5 md:w-6 md:h-6">
-                  <path strokeLinecap="round" strokeLinejoin="round" d="m4.5 12.75 6 6 9-13.5" />
-                </svg>Netlify</li>
+                <path strokeLinecap="round" strokeLinejoin="round" d="m4.5 12.75 6 6 9-13.5" />
+              </svg>Netlify</li>
               <li className='text-base md:text-[17px] md:text-lg text-neutral-300 flex items-center gap-2'><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-5 min-w-5 md:w-6 md:h-6">
-                  <path strokeLinecap="round" strokeLinejoin="round" d="m4.5 12.75 6 6 9-13.5" />
-                </svg>Figma</li>
+                <path strokeLinecap="round" strokeLinejoin="round" d="m4.5 12.75 6 6 9-13.5" />
+              </svg>Figma</li>
               <li className='text-base md:text-[17px] md:text-lg text-neutral-300 flex items-center gap-2'><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-5 min-w-5 md:w-6 md:h-6">
-                  <path strokeLinecap="round" strokeLinejoin="round" d="m4.5 12.75 6 6 9-13.5" />
-                </svg>Adobe Express</li>
+                <path strokeLinecap="round" strokeLinejoin="round" d="m4.5 12.75 6 6 9-13.5" />
+              </svg>Adobe Express</li>
               <li className='text-base md:text-[17px] md:text-lg text-neutral-300 flex items-center gap-2'><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-5 min-w-5 md:w-6 md:h-6">
-                  <path strokeLinecap="round" strokeLinejoin="round" d="m4.5 12.75 6 6 9-13.5" />
-                </svg>Sanity Studio</li>
+                <path strokeLinecap="round" strokeLinejoin="round" d="m4.5 12.75 6 6 9-13.5" />
+              </svg>Sanity Studio</li>
               <li className='text-base md:text-[17px] md:text-lg text-neutral-300 flex items-center gap-2'><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-5 min-w-5 md:w-6 md:h-6">
-                  <path strokeLinecap="round" strokeLinejoin="round" d="m4.5 12.75 6 6 9-13.5" />
-                </svg>Google Analytics</li>
+                <path strokeLinecap="round" strokeLinejoin="round" d="m4.5 12.75 6 6 9-13.5" />
+              </svg>Google Analytics</li>
               <li className='text-base md:text-[17px] md:text-lg text-neutral-300 flex items-center gap-2'><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-5 min-w-5 md:w-6 md:h-6">
-                  <path strokeLinecap="round" strokeLinejoin="round" d="m4.5 12.75 6 6 9-13.5" />
-                </svg>Google Search Console</li>
+                <path strokeLinecap="round" strokeLinejoin="round" d="m4.5 12.75 6 6 9-13.5" />
+              </svg>Google Search Console</li>
               <li className='text-base md:text-[17px] md:text-lg text-neutral-300 flex items-center gap-2'><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-5 min-w-5 md:w-6 md:h-6">
-                  <path strokeLinecap="round" strokeLinejoin="round" d="m4.5 12.75 6 6 9-13.5" />
-                </svg>Semrush</li>
+                <path strokeLinecap="round" strokeLinejoin="round" d="m4.5 12.75 6 6 9-13.5" />
+              </svg>Semrush</li>
               <li className='text-base md:text-[17px] md:text-lg text-neutral-300 flex items-center gap-2'><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-5 min-w-5 md:w-6 md:h-6">
-                  <path strokeLinecap="round" strokeLinejoin="round" d="m4.5 12.75 6 6 9-13.5" />
-                </svg>Ahrefs</li>
+                <path strokeLinecap="round" strokeLinejoin="round" d="m4.5 12.75 6 6 9-13.5" />
+              </svg>Ahrefs</li>
             </ul>
           </div>
         </div>

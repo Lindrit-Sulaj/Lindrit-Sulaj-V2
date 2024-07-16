@@ -11,7 +11,7 @@ export default function Home() {
       <section className="px-4 xl:px-0">
         <div className="max-w-screen-xl bg-black text-white p-8 md:p-14 -mt-[64px] mx-auto rounded-lg flex flex-col md:flex-row gap-y-6 justify-between">
           <div className="w-full md:w-auto">
-            <h3 className="font-bold text-2xl">My recent clients</h3>
+            <h3 className="font-semibold text-2xl">My recent clients</h3>
             <p className="text-neutral-300 mt-1 max-w-lg">I have partnered with clients from Germany, Kosovo and Switzerland to deliver professional websites built for their unique business needs.</p>
           </div>
           <div className="flex grow justify-evenly items-center flex-wrap gap-y-4">

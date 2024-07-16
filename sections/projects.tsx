@@ -21,7 +21,7 @@ export default function Projects() {
             <a href="https://www.inoweb-agentur.de" className='text-palette-primary text-lg font-medium mt-3 block'>inoweb-agentur.de</a>
           </div>
           <div className="w-full md:w-2/5 flex justify-center items-center bg-palette-isabelline">
-            <img className='max-w-[300px] lg:max-w-[500px]' src="https://ik.imagekit.io/0s9lwb2yr/Lindrit%20Sulaj/INOWEB_miQY8bd_j.png?updatedAt=1707328470050" alt="INOWEB Agentur" />
+            <img className='w-full max-w-[300px] lg:max-w-[500px]' src="https://ik.imagekit.io/0s9lwb2yr/Lindrit%20Sulaj/INOWEB_miQY8bd_j.png?updatedAt=1707328470050" alt="INOWEB Agentur" />
           </div>
         </div>
         <div className='flex flex-col md:flex-row lg:items-center border rounded-xl border-neutral-300 mt-6'>
@@ -31,7 +31,7 @@ export default function Projects() {
             <a href="https://www.protec.al" className='text-palette-primary text-lg font-medium mt-3 block'>protec.al</a>
           </div>
           <div className="w-full md:w-2/5 flex justify-center items-center bg-palette-isabelline">
-            <img className='max-w-[300px] lg:max-w-[500px]' src="https://ik.imagekit.io/0s9lwb2yr/Lindrit%20Sulaj/protec%20al%20landing%20page_lU7ldlizd.png?updatedAt=1717947009072" alt="Protec Safe Website" />
+            <img className='w-full max-w-[300px] lg:max-w-[500px]' src="https://ik.imagekit.io/0s9lwb2yr/Lindrit%20Sulaj/protec%20al%20landing%20page_lU7ldlizd.png?updatedAt=1717947009072" alt="Protec Safe Website" />
           </div>
         </div>
         <div className='flex flex-col md:flex-row lg:items-center border rounded-xl border-neutral-300 mt-6'>
@@ -41,7 +41,7 @@ export default function Projects() {
             <a href="https://www.dreamdesign-ks.com" className='text-palette-primary text-lg font-medium mt-3 block'>dreamdesign-ks.com</a>
           </div>
           <div className="w-full md:w-2/5 flex justify-center items-center bg-palette-isabelline">
-            <img className='max-w-[300px] lg:max-w-[500px]' src="https://ik.imagekit.io/0s9lwb2yr/Dream%20Design%20Project_l8labktde9.png?updatedAt=1707326568873" alt="Dream Design Website" />
+            <img className='w-full max-w-[300px] lg:max-w-[500px]' src="https://ik.imagekit.io/0s9lwb2yr/Dream%20Design%20Project_l8labktde9.png?updatedAt=1707326568873" alt="Dream Design Website" />
           </div>
         </div>
 
@@ -52,7 +52,7 @@ export default function Projects() {
             <a href="https://www.berisha-pflasterbau.de" className='text-palette-primary text-lg font-medium mt-3 block'>berisha-pflasterbau.de</a>
           </div>
           <div className="w-full md:w-2/5 flex justify-center items-center bg-palette-isabelline">
-            <img className='max-w-[300px] lg:max-w-[500px]' src="https://ik.imagekit.io/0s9lwb2yr/Pflasterbau%20Berisha_EFA94QSlP.png?updatedAt=1707327690666" alt="Pflasterbau Berisha" />
+            <img className='w-full max-w-[300px] lg:max-w-[500px]' src="https://ik.imagekit.io/0s9lwb2yr/Pflasterbau%20Berisha_EFA94QSlP.png?updatedAt=1707327690666" alt="Pflasterbau Berisha" />
           </div>
         </div>
       </div>
