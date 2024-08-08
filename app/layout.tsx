@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
-import { Epilogue as DefaultFont } from "next/font/google";
+import { Outfit as DefaultFont } from "next/font/google";
+import { GoogleAnalytics as NextGoogleAnalytics } from "@next/third-parties/google";
 import GoogleAnalytics from "./GoogleAnalytics";
 
 import Navbar from "@/components/navbar";
@@ -21,13 +22,13 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <GoogleAnalytics GA_TRACKING_ID="G-Y148D4GHC8" />
+      {/* <GoogleAnalytics GA_TRACKING_ID="G-Y148D4GHC8" /> */}
       <body className={primaryFont.className}>
         <Navbar />
         {children}
         <Footer />
-        <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
       </body>
+      <NextGoogleAnalytics gaId="G-Y148D4GHC8" />
     </html>
   );
 }

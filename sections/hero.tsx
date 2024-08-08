@@ -8,7 +8,7 @@ export default function Hero() {
   return (
     <section className='pb-16 bg-palette-isabelline px-4 md:px-6'>
       <div className="max-w-screen-xl mx-auto flex flex-col lg:flex-row lg:items-end xl:items-center">
-        <div className="w-full lg:w-3/5 pb-10 pt-20 md:pt-28 md:pb-28">
+        <div className="w-full lg:w-3/5 pb-10 pt-20 md:pt-28 lg:pb-28">
           <h1 className='h3'>
             <svg width="100%" height="100%" viewBox="0 0 24 24" className='w-6 md:w-8 text-palette-primary' fill="none" xmlns="http://www.w3.org/2000/svg">
               <path d="M12 2V22M19.0711 4.92893L4.92893 19.0711M22 12H2M19.0711 19.0711L4.92893 4.92893" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" />
@@ -53,7 +53,17 @@ export default function Hero() {
           </div>
         </div>
         <div className="w-full flex flex-col items-center lg:w-2/5">
-          <img className='max-h-[400px] lg:max-h-none lg:h-[95%] w-auto mt-auto' src="https://ik.imagekit.io/0s9lwb2yr/Lindrit%20Sulaj/lindrit%20sulaj%20hero%20image_09qJEnj4f.png?updatedAt=1707943804066" alt="Lindrit Sulaj" />
+          <img 
+          src="../images/lindritsulaj.webp" 
+          width="700px"
+          height="901px"
+          alt="Lindrit Sulaj" 
+          srcSet="../images/lindritsulaj.webp 700w, ../images/lindritsulaj.webp 580w"
+          sizes="(max-width: 820px) 580px,
+                  700px "
+          className='max-w-sm lg:max-w-full'
+           />
+          {/* <img className='max-h-[400px] lg:max-h-none lg:h-[95%] w-auto mt-auto' src="../images/lindritsulaj.webp" width="700px" height="901px" alt="Lindrit Sulaj" /> */}
         </div>
       </div>
 

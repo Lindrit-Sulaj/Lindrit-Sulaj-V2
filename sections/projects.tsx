@@ -1,5 +1,6 @@
 import React from 'react'
 import { Badge } from '@/components/ui/badge'
+import AnimatedLink from '@/components/animated-link'
 
 export default function Projects() {
   return (
@@ -11,8 +12,128 @@ export default function Projects() {
         <span>Projects & Portfolio</span>
       </h3>
       <h2 className="h2">Take a look at my projects</h2>
-      <p className='text-[17px] md:text-lg text-neutral-700 mt-2'>Explore my portfolio, where precise coding meets creative design.</p>
-      <div>
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 mt-8 gap-x-6 gap-y-14">
+        <div>
+          <div className="bg-emerald-100 p-8">
+            <img src="../images/malaj-dienstleistungen.webp" className='mx-auto w-full max-w-[300px]' width="500px" height="305px" alt="Malaj Dienstleistungen" />
+          </div>
+          <div className="mt-6">
+
+            <h3 className="font-bold text-lg md:text-xl lg:text-2xl">Malaj Dienstleistungen</h3>
+            <p className='text-black/80 lg:text-lg mt-2'>Developed a modern business website for a gardening copmany in Germany and optimized it for local SEO.</p>
+            <div className="flex gap-x-2 mt-3 flex-wrap">
+              <div className="px-4 py-1 border rounded-full">
+                Business Website
+              </div>
+              <div className="px-4 py-1 border rounded-full">
+                SEO
+              </div>
+              <div className="px-4 py-1 border rounded-full">
+                Local SEO
+              </div>
+            </div>
+            <AnimatedLink href="https://www.malaj-service.de" label="View live website" className='mt-4' />
+          </div>
+        </div>
+        <div>
+          <div className="bg-yellow-100 p-8">
+            <img src="../images/berishapflasterbau.webp" className='mx-auto w-full max-w-[300px]' width="500px" height="305px" alt="Malaj Dienstleistungen" />
+          </div>
+          <div className="mt-6">
+
+            <h3 className="font-bold text-lg md:text-xl lg:text-2xl">Berisha Pflasterbau</h3>
+            <p className='text-black/80 lg:text-lg mt-2'>Designed and developed a modern & converting landing page for a paving construction company.</p>
+            <div className="flex gap-x-2 mt-3 flex-wrap">
+              <div className="px-4 py-1 border rounded-full">
+                Landing Page
+              </div>
+              <div className="px-4 py-1 border rounded-full">
+                SEO
+              </div>
+            </div>
+            <AnimatedLink href="https://www.berisha-pflasterbau.de" label="View live website" className='mt-4' />
+          </div>
+        </div>
+        <div>
+          <div className="bg-blue-100 p-8">
+            <img src="../images/protecsafe.webp" className='mx-auto w-full max-w-[300px]' width="500px" height="305px" alt="Malaj Dienstleistungen" />
+          </div>
+          <div className="mt-6">
+
+            <h3 className="font-bold text-lg md:text-xl lg:text-2xl">Protec Safe</h3>
+            <p className='text-black/80 lg:text-lg mt-2'>Developed a modern, easy to navigate & high converting website for the leading safe manufacturer in Kosovo.</p>
+            <div className="flex gap-x-2 mt-3 flex-wrap">
+              <div className="px-4 py-1 border rounded-full">
+                Web Development
+              </div>
+              <div className="px-4 py-1 border rounded-full">
+                CMS
+              </div>
+              <div className="px-4 py-1 border rounded-full">
+                UI/UX
+              </div>
+            </div>
+            <AnimatedLink href="https://www.protec.al" label="View live website" className='mt-4' />
+          </div>
+        </div>
+        <div>
+          <div className="bg-sky-100 p-8">
+            <img src="../images/dreamdesign.webp" className='mx-auto w-full max-w-[300px]' width="500px" height="305px" alt="Malaj Dienstleistungen" />
+          </div>
+          <div className="mt-6">
+
+            <h3 className="font-bold text-lg md:text-xl lg:text-2xl">Dream Design</h3>
+            <p className='text-black/80 lg:text-lg mt-2'>Designed and developed a modern website for a full-service construction company.</p>
+            <div className="flex gap-x-2 mt-3 flex-wrap">
+              <div className="px-4 py-1 border rounded-full">
+                Web Development
+              </div>
+              <div className="px-4 py-1 border rounded-full">
+                UI/UX
+              </div>
+            </div>
+            <AnimatedLink href="https://www.dreamdesign-ks.com" label="View live website" className='mt-4' />
+          </div>
+        </div>
+        <div>
+          <div className="bg-rose-100 p-8">
+            <img src="../images/beauteinfinie.webp" className='mx-auto w-full max-w-[300px]' width="500px" height="305px" alt="Malaj Dienstleistungen" />
+          </div>
+          <div className="mt-6">
+
+            <h3 className="font-bold text-lg md:text-xl lg:text-2xl">Beaute Infinie</h3>
+            <p className='text-black/80 lg:text-lg mt-2'>Design and development of a modern, professional website for a beauty salon.</p>
+            <div className="flex gap-x-2 mt-3 flex-wrap">
+              <div className="px-4 py-1 border rounded-full">
+                Web Development
+              </div>
+              <div className="px-4 py-1 border rounded-full">
+                UI/UX
+              </div>
+            </div>
+            <AnimatedLink href="https://www.beaute-infinie.ch/" label="View live website" className='mt-4' />
+          </div>
+        </div>
+        <div>
+          <div className="bg-cyan-100 p-8">
+            <img src="../images/propreetservices.webp" className='mx-auto w-full max-w-[300px]' width="500px" height="305px" alt="Malaj Dienstleistungen" />
+          </div>
+          <div className="mt-6">
+
+            <h3 className="font-bold text-lg md:text-xl lg:text-2xl">Propre Et Services (In Development)</h3>
+            <p className='text-black/80 lg:text-lg mt-2'>Design and development of a modern & sleek website for a cleaning company.</p>
+            <div className="flex gap-x-2 mt-3 flex-wrap">
+              <div className="px-4 py-1 border rounded-full">
+                Web Development
+              </div>
+              <div className="px-4 py-1 border rounded-full">
+                UI/UX
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      {/* <div>
         <div className='flex flex-col md:flex-row lg:items-center border rounded-xl border-neutral-300 mt-6'>
           <div className="w-full md:w-3/5 p-4 md:p-8 lg:p-10">
             <Badge className='bg-palette-primary'>Featured</Badge>
@@ -55,7 +176,7 @@ export default function Projects() {
             <img className='w-full max-w-[300px] lg:max-w-[500px]' src="https://ik.imagekit.io/0s9lwb2yr/Pflasterbau%20Berisha_EFA94QSlP.png?updatedAt=1707327690666" alt="Pflasterbau Berisha" />
           </div>
         </div>
-      </div>
+      </div> */}
     </section>
   )
 }
