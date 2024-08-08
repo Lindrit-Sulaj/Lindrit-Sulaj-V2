@@ -15,7 +15,7 @@ export default function Projects() {
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 mt-8 gap-x-6 gap-y-14">
         <div>
           <div className="bg-emerald-100 p-8">
-            <img src="../images/malaj-dienstleistungen.webp" className='mx-auto w-full max-w-[300px]' width="500px" height="305px" alt="Malaj Dienstleistungen" />
+            <img src="../images/malaj-dienstleistungen.webp" loading="lazy" className='mx-auto w-full max-w-[300px]' width="500px" height="305px" alt="Malaj Dienstleistungen" />
           </div>
           <div className="mt-6">
 
@@ -37,7 +37,7 @@ export default function Projects() {
         </div>
         <div>
           <div className="bg-yellow-100 p-8">
-            <img src="../images/berishapflasterbau.webp" className='mx-auto w-full max-w-[300px]' width="500px" height="305px" alt="Malaj Dienstleistungen" />
+            <img src="../images/berishapflasterbau.webp" loading="lazy" className='mx-auto w-full max-w-[300px]' width="500px" height="305px" alt="Malaj Dienstleistungen" />
           </div>
           <div className="mt-6">
 
@@ -56,7 +56,7 @@ export default function Projects() {
         </div>
         <div>
           <div className="bg-blue-100 p-8">
-            <img src="../images/protecsafe.webp" className='mx-auto w-full max-w-[300px]' width="500px" height="305px" alt="Malaj Dienstleistungen" />
+            <img src="../images/protecsafe.webp" loading="lazy" className='mx-auto w-full max-w-[300px]' width="500px" height="305px" alt="Malaj Dienstleistungen" />
           </div>
           <div className="mt-6">
 
@@ -78,7 +78,7 @@ export default function Projects() {
         </div>
         <div>
           <div className="bg-sky-100 p-8">
-            <img src="../images/dreamdesign.webp" className='mx-auto w-full max-w-[300px]' width="500px" height="305px" alt="Malaj Dienstleistungen" />
+            <img src="../images/dreamdesign.webp" loading="lazy" className='mx-auto w-full max-w-[300px]' width="500px" height="305px" alt="Malaj Dienstleistungen" />
           </div>
           <div className="mt-6">
 
@@ -97,7 +97,7 @@ export default function Projects() {
         </div>
         <div>
           <div className="bg-rose-100 p-8">
-            <img src="../images/beauteinfinie.webp" className='mx-auto w-full max-w-[300px]' width="500px" height="305px" alt="Malaj Dienstleistungen" />
+            <img src="../images/beauteinfinie.webp" loading="lazy" className='mx-auto w-full max-w-[300px]' width="500px" height="305px" alt="Malaj Dienstleistungen" />
           </div>
           <div className="mt-6">
 
@@ -116,7 +116,7 @@ export default function Projects() {
         </div>
         <div>
           <div className="bg-cyan-100 p-8">
-            <img src="../images/propreetservices.webp" className='mx-auto w-full max-w-[300px]' width="500px" height="305px" alt="Malaj Dienstleistungen" />
+            <img src="../images/propreetservices.webp" loading="lazy" className='mx-auto w-full max-w-[300px]' width="500px" height="305px" alt="Malaj Dienstleistungen" />
           </div>
           <div className="mt-6">
 

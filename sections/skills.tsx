@@ -3,17 +3,17 @@ import React from 'react'
 export default function Skills() {
   return (
     <section id="skills" className="bg-neutral-950 text-white py-14 my-24 px-4">
-      <h3 className='font-medium text-neutral-300 flex items-center gap-2 md:text-lg tracking-wider uppercase justify-center'>
+      <h2 className='font-medium text-neutral-300 flex items-center gap-2 md:text-lg tracking-wider uppercase justify-center'>
         <svg width="100%" height="100%" viewBox="0 0 24 24" className='w-4 md:w-6 text-palette-primary' fill="none" xmlns="http://www.w3.org/2000/svg">
           <path d="M12 2V22M19.0711 4.92893L4.92893 19.0711M22 12H2M19.0711 19.0711L4.92893 4.92893" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" />
         </svg>
         <span>Skills & Expertise</span>
-      </h3>
-      <h2 className='h2 text-white text-center'>What I can do</h2>
+      </h2>
+      <h3 className='h2 text-white text-center'>What I can do</h3>
       <p className='text-neutral-300 text-center text-[17px] md:text-lg max-w-3xl mt-3 mx-auto'>I have experience in Web Development, Web Design and SEO. Let's bring your vision to life with functional, good-looking, and search-friendly websites.</p>
       <div className="flex flex-col lg:flex-row items-start max-w-screen-xl mt-8 gap-x-8 gap-y-8 mx-auto">
         <div className='w-full lg:w-1/3'>
-          <h3 className='font-bold text-lg md:text-xl lg:text-[23px]'>Languages & Frameworks</h3>
+          <h4 className='font-bold text-lg md:text-xl lg:text-[23px]'>Languages & Frameworks</h4>
           <ul className='mt-4 block md:grid grid-cols-2 lg:block gap-x-4'>
             <li className='flex items-center gap-x-2 mt-4'>
               <div className='w-12 h-12 rounded-full justify-center items-center flex bg-neutral-800'>
