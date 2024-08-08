@@ -217,7 +217,7 @@ export default function Skills() {
                 </div>
               </div>
             </li>
-            <p className='mt-4 md:text-[17px] text-neutral-300'>Other: Redux, Sass, Framer Motion, Prismic</p>
+            <li className='mt-4 md:text-[17px] text-neutral-300'>Other: Redux, Sass, Framer Motion, Prismic</li>
           </ul>
         </div>
         <div className="w-full lg:w-2/3 flex flex-col md:flex-row lg:flex-col items-start gap-y-6 gap-x-4">
