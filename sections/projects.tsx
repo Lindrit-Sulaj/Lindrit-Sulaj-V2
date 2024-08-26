@@ -120,7 +120,7 @@ export default function Projects() {
           </div>
           <div className="mt-6">
 
-            <h3 className="font-bold text-lg md:text-xl lg:text-2xl">Propre Et Services (In Development)</h3>
+            <h3 className="font-bold text-lg md:text-xl lg:text-2xl">Propre Et Services</h3>
             <p className='text-black/80 lg:text-lg mt-2'>Design and development of a modern & sleek website for a cleaning company.</p>
             <div className="flex gap-x-2 mt-3 flex-wrap">
               <div className="px-4 py-1 border rounded-full">
@@ -130,6 +130,7 @@ export default function Projects() {
                 UI/UX
               </div>
             </div>
+            <AnimatedLink href="https://www.propreetservices.fr/" label="View live website" className='mt-4' />
           </div>
         </div>
       </div>
