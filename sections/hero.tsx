@@ -6,12 +6,12 @@ import { Button } from '@/components/ui/button'
 
 export default function Hero() {
   return (
-    <section className='pb-16 bg-palette-isabelline px-4 md:px-6'>
+    <section className='bg-palette-isabelline px-4 md:px-6 relative'>
       <div className="max-w-screen-xl mx-auto flex flex-col lg:flex-row lg:items-end xl:items-center">
         <div className="w-full lg:w-3/5 pb-10 pt-20 md:pt-28 lg:pb-28">
           <h1 className='h3'>
-            <svg width="100%" height="100%" viewBox="0 0 24 24" className='w-6 md:w-8 text-palette-primary' fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M12 2V22M19.0711 4.92893L4.92893 19.0711M22 12H2M19.0711 19.0711L4.92893 4.92893" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" />
+            <svg width="100%" height="100%" className="size-7 text-palette-primary" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M12 2V22M19.0711 4.92893L4.92893 19.0711M22 12H2M19.0711 19.0711L4.92893 4.92893" stroke="currentColor" strokeWidth={2.4} strokeLinecap="round" strokeLinejoin="round" />
             </svg>
             <span>Full Stack Web Developer & SEO Specialist</span>
           </h1>
@@ -26,13 +26,13 @@ export default function Hero() {
             </Link>
             <Link href="/#projects">
               <Button size="lg" className='gap-x-1' variant="outline"><span className="leading-tight">View projects</span> <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor" className="size-[18px] block m-auto">
-  <path strokeLinecap="round" strokeLinejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
-</svg></Button>
+                <path strokeLinecap="round" strokeLinejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
+              </svg></Button>
             </Link>
           </div>
           <div className='mt-6 hidden md:flex items-center gap-3'>
             <p className='font-medium'>Check out my</p>
-            <hr className='h-1 bg-orange-400 w-40' />
+            <hr className='h-1 bg-palette-primary w-40' />
             <ul className='flex gap-2'>
               <li>
                 <a rel="noopener nofollow" target="_blank" href="https://www.instagram.com/lindritsulaj" className='w-11 h-11 bg-neutral-900 text-white flex items-center justify-center rounded-full hover:bg-neutral-800 transition-all'>
@@ -52,17 +52,14 @@ export default function Hero() {
             </ul>
           </div>
         </div>
-        <div className="w-full flex flex-col items-center lg:w-2/5">
-          <img 
-          src="../images/lindritsulaj.webp" 
-          width="700px"
-          height="901px"
-          alt="Lindrit Sulaj" 
-          srcSet="../images/lindritsulaj.webp 700w, ../images/lindritsulaj.webp 580w"
-          sizes="(max-width: 820px) 580px,
-                  700px "
-          className='max-w-sm lg:max-w-full'
-           />
+        <div className="w-full flex flex-col items-center lg:w-1/2">
+          <img
+            src="../images/mainfoto2.webp"
+            width="700px"
+            height="901px"
+            alt="Lindrit Sulaj"
+            className='max-w-sm lg:max-w-full'
+          />
           {/* <img className='max-h-[400px] lg:max-h-none lg:h-[95%] w-auto mt-auto' src="../images/lindritsulaj.webp" width="700px" height="901px" alt="Lindrit Sulaj" /> */}
         </div>
       </div>

@@ -3,12 +3,13 @@ import About from "@/sections/about";
 import Skills from "@/sections/skills";
 import Projects from "@/sections/projects";
 import Cta from "@/sections/cta";
+import HorizontalLine from "@/components/horizontal-line";
 
 export default function Home() {
   return (
     <main>
       <Hero />
-      <section className="px-4 xl:px-0">
+      {/* <section className="px-4 xl:px-0">
         <div className="max-w-screen-xl bg-black text-white p-8 md:p-14 -mt-[65px] mx-auto flex flex-col md:flex-row gap-y-6 justify-between">
           <div className="w-full md:w-auto">
             <h3 className="font-semibold text-2xl">My recent clients</h3>
@@ -21,7 +22,8 @@ export default function Home() {
             <img src="https://ik.imagekit.io/0s9lwb2yr/Lindrit%20Sulaj/tr:h-56/image%20(3)_Psvsy2Vp0.png?updatedAt=1717925034444" className="h-8 w-auto md:h-14" width="81px" height="56px" alt="Protec Safe" />
           </div>
         </div>
-      </section>
+      </section> */}
+      <HorizontalLine />
       <About />
       <Skills />
       <Projects />

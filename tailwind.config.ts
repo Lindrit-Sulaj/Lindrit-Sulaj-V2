@@ -24,7 +24,7 @@ const config = {
           'orange': '#FC6502',
           'isabelline': '#F3F2EE',
           'tawny': '#D85802',
-          'primary': '#EA1015'
+          'primary': '#DC2626'
         },
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
